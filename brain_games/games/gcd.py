@@ -24,7 +24,7 @@ def gcd():
             else:
                 counter_start += 1
                 devisor_2_check += 1
-        print('Question: {num_1} {num_2}')
+        print(f'Question: {num_1} {num_2}')
         answer = prompt.string('Your answer: ')
         if answer == str(result):
             print(Fore.GREEN + 'Correct!')
