@@ -23,13 +23,13 @@ def even():
             if question % 2 == 0:
                 print(Fore.GREEN + 'Correct!')
             else:
-                print(Fore.RED + wr_an_1)
-                break
+                print(wr_an_1)
+                return
         elif answer == 'no':
             if question % 2 != 0:
-                print(Fore.GREEN + 'Correct!')
+                print('Correct!')
             else:
-                print(Fore.RED + wr_an_1)
+                print(wr_an_1)
                 print(wr_an_2)
                 return
         else:
