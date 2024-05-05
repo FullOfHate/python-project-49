@@ -14,25 +14,27 @@ def even():
         print(Fore.YELLOW + 'Question: ' + str(question))
         answer = prompt.string('Your answer: ')
         if question % 2 == 0:
-            correct_answer = 'yes'
+            c_a = 'yes'
         else:
-            correct_answer = 'no'
-        wrong_answer = f"""'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'. \n Let's try again, {name}!"""
+            c_a = 'no'
+        wr_an_1 = f"'{answer}' is wrong answer ;(. Correct answer was '{c_a}'."
+        wr_an_2 = f"Let's try again, {name}!"
         if answer == 'yes':
             if question % 2 == 0:
                 print(Fore.GREEN + 'Correct!')
             else:
-                print(Fore.RED + wrong_answer)
+                print(Fore.RED + wr_an_1)
                 break
         elif answer == 'no':
             if question % 2 != 0:
                 print(Fore.GREEN + 'Correct!')
             else:
-                print(Fore.RED + wrong_answer)
+                print(Fore.RED + wr_an_1)
+                print(wr_an_2)
                 break
         else:
-            print(Fore.RED + wrong_answer)
-            break
+            print(Fore.RED + wr_an_1)
+            print(wr_an_2)
+            return
         tries += 1
-    if tries == 3:
-        print(f'Congratulations, {name}!')
+    print(f'Congratulations, {name}!')
