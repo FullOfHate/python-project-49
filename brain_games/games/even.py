@@ -19,20 +19,10 @@ def even():
             c_a = 'no'
         wr_an_1 = f"'{answer}' is wrong answer ;(. Correct answer was '{c_a}'."
         wr_an_2 = f"Let's try again, {name}!"
-        if answer == 'yes':
-            if question % 2 == 0:
-                print(Fore.GREEN + 'Correct!')
-            else:
-                print(wr_an_1)
-                print(wr_an_2)
-                return
-        elif answer == 'no':
-            if question % 2 != 0:
-                print('Correct!')
-            else:
-                print(wr_an_1)
-                print(wr_an_2)
-                return
+        if answer == 'yes' and question % 2 == 0:
+            print('Correct!')
+        elif answer == 'no' and question % 2 != 0:
+            print('Correct!')
         else:
             print(wr_an_1)
             print(wr_an_2)

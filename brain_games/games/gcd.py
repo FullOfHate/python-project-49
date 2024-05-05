@@ -32,7 +32,7 @@ def gcd():
             devisor_2_check = 1
         else:
             print(f"'{answer}' is wrong answer ;(. Correct answer was '{res}'.")
-            print("Let's try again, {name}!")
+            print(f"Let's try again, {name}!")
             break
         tries += 1
     if tries == 3:
