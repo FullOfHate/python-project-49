@@ -7,7 +7,7 @@ def gcd():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print('Hello, ' + name)
-    print('Find the greatest common divisor of given numbers.')
+    print(Fore.YELLOW + 'Find the greatest common divisor of given numbers.')
     result = 1      # запоминаем делитель
     devisor_2_check = 1     # проверяем делитель
     tries = 0
@@ -24,7 +24,7 @@ def gcd():
             else:
                 counter_start += 1
                 devisor_2_check += 1
-        print(f'Question: {num_1} {num_2}')
+        print('Question: {num_1} {num_2}')
         answer = prompt.string('Your answer: ')
         if answer == str(result):
             print(Fore.GREEN + 'Correct!')

@@ -9,3 +9,6 @@ https://asciinema.org/a/epGwbIVOTd1YajN89Avfh0JKg
 
 ### install and run BRAIN_GCD
 https://asciinema.org/a/V9DbUgSFUChRGrppybLfpJ1Qg
+
+### install and run BRAIN_REGRESSION
+https://asciinema.org/a/jdVCig72zPqUKP2kNyO5xjrt0

@@ -2,11 +2,12 @@ import prompt
 import random
 from colorama import Fore
 
+
 def calc():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print('Hello, ' + name)
-    print('What is the result of the expression?')
+    print(Fore.YELLOW + 'What is the result of the expression?')
     list_of_signs = ['+', '-', '*']
     tries = 0
     while tries < 3:
