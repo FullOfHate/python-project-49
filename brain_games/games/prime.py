@@ -23,7 +23,7 @@ def prime():
             result = 'no'
         else:
             result = 'yes'
-        print(str(random_number))
+        print('Question: ' + str(random_number))
         answer = prompt.string('Your answer: ')
         if answer == result:
             print(Fore.GREEN + 'Correct!')
