@@ -17,7 +17,7 @@ def even():
             correct_answer = 'yes'
         else:
             correct_answer = 'no'
-        wrong_answer = f"""'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'. \n Let's try again, {name}"""
+        wrong_answer = f"""'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'. \n Let's try again, {name}!"""
         if answer == 'yes':
             if question % 2 == 0:
                 print(Fore.GREEN + 'Correct!')

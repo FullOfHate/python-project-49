@@ -34,7 +34,7 @@ def progression():
             result = 1
 
         else:
-            print(Fore.RED + f"""'{answer}' is wrong answer ;(. Correct answer was '{result}'. \n Let's try again, {name}""")
+            print(Fore.RED + f"""'{answer}' is wrong answer ;(. Correct answer was '{result}'. \n Let's try again, {name}!""")
             break
         tries += 1
     if tries == 3:
