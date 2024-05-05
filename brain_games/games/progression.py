@@ -28,7 +28,7 @@ def progression():
                 string_of_question += " "
             else:
                 string_of_question += str(i) + " "
-        print('Question:' + string_of_question)
+        print('Question: ' + string_of_question)
         answer = prompt.string('Your answer: ')
         if answer == str(result):
             print(Fore.GREEN + 'Correct!')
