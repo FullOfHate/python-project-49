@@ -4,7 +4,6 @@ from colorama import Fore
 
 
 def progression():
-    pass
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print('Hello, ' + name)

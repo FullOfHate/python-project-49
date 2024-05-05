@@ -12,3 +12,6 @@ https://asciinema.org/a/V9DbUgSFUChRGrppybLfpJ1Qg
 
 ### install and run BRAIN_REGRESSION
 https://asciinema.org/a/jdVCig72zPqUKP2kNyO5xjrt0
+
+### install and run BRAIN_PRIME
+https://asciinema.org/a/3aOuqnRgPVd9L5pB7NzIJNXde
