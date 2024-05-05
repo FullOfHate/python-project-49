@@ -14,7 +14,7 @@ def calc():
         num_1 = random.randint(0, 10)
         num_2 = random.randint(0, 10)
         sign = random.choice(list_of_signs)
-        print(Fore.YELLOW + ('Question: ' + str(num_1) + sign + str(num_2)))
+        print(Fore.YELLOW + ('Question: ' + str(num_1) + " " + sign + " " + str(num_2)))
         if sign == '+':
             result = num_1 + num_2
         elif sign == '-':
