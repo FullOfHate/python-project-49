@@ -21,11 +21,11 @@ def calc():
             result = num_1 - num_2
         else:
             result = num_1 * num_2
-        ans = prompt.string('Your ans: ')
-        if ans == str(result):
+        answer = prompt.string('Your answer: ')
+        if answer == str(result):
             print(Fore.GREEN + 'Correct!')
         else:
-            print(f"'{ans}' is wrong ans ;(. Correct ans was '{result}'.")
+            print(f"'{answer}' is wrong answer ;(. Correct answer was '{result}'.")
             print(f"Let's try again, {name}!")
             break
         tries += 1
