@@ -23,8 +23,9 @@ def progression():
                 list_of_numbers.append(list_of_numbers[-1] + random_interval_number)
         for i in list_of_numbers:
             if list_of_numbers.index(i) == random_number_hide:
-                string_of_question += ".. "
+                string_of_question += ".."
                 result = i
+                string_of_question += " "
             else:
                 string_of_question += str(i) + " "
         print(string_of_question)
