@@ -25,7 +25,7 @@ def calc():
         if answer == str(result):
             print(Fore.GREEN + 'Correct!')
         else:
-            print(Fore.RED + f"""'{answer}' is wrong answer ;(. Correct answer was '{result}'. \n Let's try again, {name}""")
+            print(Fore.RED + f"""'{answer}' is wrong answer ;(. Correct answer was '{result}'. \n Let's try again, {name}!""")
             break
         # else:
         #     print(
