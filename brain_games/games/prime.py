@@ -7,7 +7,7 @@ def prime():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print('Hello, ' + name)
-    print(Fore.YELLOW + 'Answer "yes" if given number is prime. Otherwise answer "no"')
+    print(Fore.YELLOW + 'Answer "yes" if given number is prime. Otherwise answer "no".')
     tries = 0
     while tries < 3:
         random_number = random.randint(1, 100)
@@ -28,7 +28,7 @@ def prime():
         if answer == result:
             print(Fore.GREEN + 'Correct!')
         else:
-            print(Fore.RED + f"""'{answer}' is wrong answer ;(. Correct answer was '{result}'. \n Let's try again, {name}!""")
+            print(Fore.RED + f"""'{answer}' is wrong answer ;(. Correct answer was '{result}' \n Let's try again, {name}!""")
             break
         tries += 1
     if tries == 3:
