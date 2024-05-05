@@ -31,7 +31,7 @@ def even():
             else:
                 print(Fore.RED + wr_an_1)
                 print(wr_an_2)
-                break
+                return
         else:
             print(Fore.RED + wr_an_1)
             print(wr_an_2)
