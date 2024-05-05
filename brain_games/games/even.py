@@ -24,6 +24,7 @@ def even():
                 print(Fore.GREEN + 'Correct!')
             else:
                 print(wr_an_1)
+                print(wr_an_2)
                 return
         elif answer == 'no':
             if question % 2 != 0:
@@ -33,7 +34,7 @@ def even():
                 print(wr_an_2)
                 return
         else:
-            print(Fore.RED + wr_an_1)
+            print(wr_an_1)
             print(wr_an_2)
             return
         tries += 1
